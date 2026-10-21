@@ -95,7 +95,7 @@
       // 執行 `npx wrangler d1 create todo-db`，把它印出來的 UUID 貼在這裡。
       // 資料庫已經建好的話，用 `npx wrangler d1 list` 也查得到。
       // 組建變數 D1_DATABASE_ID 可覆寫（就不必把真值寫進這個檔案）
-      "database_id": "PASTE_YOUR_D1_DATABASE_ID_HERE"
+      "database_id": "a1f31f97-a69a-4bfa-b363-bf5d6a75c344"
     }
   ],
 
@@ -108,7 +108,7 @@
       // ── 你的 ── R2 沒有 id，用名稱對應就行。
       // 用 `npx wrangler r2 bucket create todo-images` 建立。
       // 組建變數 R2_BUCKET_NAME 可覆寫
-      "bucket_name": "todo-images"
+      "bucket_name": "todo-sample-bucket"
     }
   ],
 
